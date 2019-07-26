@@ -1,0 +1,63 @@
+PODS:
+  - Alamofire (4.8.2)
+  - Cache (5.2.0)
+  - DZNEmptyDataSet (1.8.1)
+  - HandyJSON (5.0.0)
+  - HzyWidget (0.1.0):
+    - HzyWidget/Base (= 0.1.0)
+    - HzyWidget/Extension (= 0.1.0)
+    - HzyWidget/NetWorkEngine (= 0.1.0)
+    - HzyWidget/UIWidget (= 0.1.0)
+  - HzyWidget/Base (0.1.0)
+  - HzyWidget/Extension (0.1.0):
+    - SnapKit (~> 5.0.0)
+  - HzyWidget/NetWorkEngine (0.1.0):
+    - Alamofire (~> 4.8.1)
+    - Cache
+    - HandyJSON (~> 5.0.0)
+  - HzyWidget/UIWidget (0.1.0):
+    - Kingfisher (~> 5.7.0)
+  - Kingfisher (5.7.0)
+  - ReactiveObjC (3.1.1)
+  - SnapKit (5.0.0)
+  - SwiftDate (4.4.2)
+  - SwiftyJSON (4.1.0)
+
+DEPENDENCIES:
+  - DZNEmptyDataSet (= 1.8.1)
+  - HzyWidget (from `../HzyWidget`)
+  - ReactiveObjC
+  - SwiftDate (~> 4.4.2)
+  - SwiftyJSON (= 4.1.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Cache
+    - DZNEmptyDataSet
+    - HandyJSON
+    - Kingfisher
+    - ReactiveObjC
+    - SnapKit
+    - SwiftDate
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  HzyWidget:
+    :path: "../HzyWidget"
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Cache: 807c5d86d01a177f06ede9865add3aea269bbfd4
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  HandyJSON: 992f2d661716d6a91de82d0056927bc7813b5770
+  HzyWidget: 924de224e23c6f5ea25c385489d49974f77bb4a2
+  Kingfisher: c7d211b54f1f30d8060aadab177d52b4349c825b
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  SnapKit: fd22d10eb9aff484d79a8724eab922c1ddf89bcf
+  SwiftDate: 131cf2f09b390f0a07f0099e36005ffe2fbf4c7e
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+
+PODFILE CHECKSUM: dc63ee159a03f1a340f0ee06124e55cdf0448ccb
+
+COCOAPODS: 1.6.1

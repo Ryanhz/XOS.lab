@@ -1,0 +1,6 @@
+framework module Pods_laboratory {
+  umbrella header "Pods-laboratory-umbrella.h"
+
+  export *
+  module * { export * }
+}

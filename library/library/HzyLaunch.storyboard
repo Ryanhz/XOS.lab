@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Hzy New Feature Item View Controller-->
+        <scene sceneID="yLU-iV-sDk">
+            <objects>
+                <viewController storyboardIdentifier="HzyNewFeatureItemViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="cZi-sz-fmJ" customClass="HzyNewFeatureItemViewController" customModule="library" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tH2-C3-vBh"/>
+                        <viewControllerLayoutGuide type="bottom" id="IBH-5W-gL4"/>
+                    </layoutGuides>
+                    <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="8Pt-6g-eeP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gs6-Rw-cRX">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="chc-Yi-Q5y">
+                                <rect key="frame" x="127.5" y="557" width="120" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="LA7-vo-c4v"/>
+                                    <constraint firstAttribute="height" constant="30" id="PoW-cW-jz5"/>
+                                </constraints>
+                                <state key="normal" title="进入"/>
+                                <connections>
+                                    <action selector="enterClickAction:" destination="cZi-sz-fmJ" eventType="touchUpInside" id="6K0-Et-s7g"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gs6-Rw-cRX" firstAttribute="leading" secondItem="8Pt-6g-eeP" secondAttribute="leading" id="1SL-nh-E7d"/>
+                            <constraint firstItem="IBH-5W-gL4" firstAttribute="top" secondItem="chc-Yi-Q5y" secondAttribute="bottom" constant="80" id="OR5-Xc-Lb9"/>
+                            <constraint firstAttribute="trailing" secondItem="gs6-Rw-cRX" secondAttribute="trailing" id="d6W-er-8EO"/>
+                            <constraint firstAttribute="bottom" secondItem="gs6-Rw-cRX" secondAttribute="bottom" id="dKf-0E-Rd8"/>
+                            <constraint firstItem="chc-Yi-Q5y" firstAttribute="centerX" secondItem="8Pt-6g-eeP" secondAttribute="centerX" id="iRe-nB-Tq4"/>
+                            <constraint firstItem="gs6-Rw-cRX" firstAttribute="top" secondItem="8Pt-6g-eeP" secondAttribute="top" id="s9J-yf-Jls"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="enterBtn" destination="chc-Yi-Q5y" id="Nrk-jF-O6y"/>
+                        <outlet property="imageView" destination="gs6-Rw-cRX" id="096-Ak-FEv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kfi-pm-Ri8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="114.375" y="211.21666666666664"/>
+        </scene>
+    </scenes>
+</document>

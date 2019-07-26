@@ -1,0 +1,77 @@
+{
+  "name": "HzyWidget",
+  "version": "0.1.0",
+  "summary": "A short description of hzyWidget.",
+  "swift_version": "5.0",
+  "module_name": "HzyWidget",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1810022686@qq.com/HzyWidget",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1810022686@qq.com": "1810022686@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/1810022686@qq.com/hzyWidget.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "subspecs": [
+    {
+      "name": "Base",
+      "source_files": "HzyWidget/Classes/Base/**/*",
+      "public_header_files": "HzyWidget/Classes/Base/**/*.h"
+    },
+    {
+      "name": "UIWidget",
+      "source_files": "HzyWidget/Classes/UIWidget/**/*",
+      "public_header_files": "HzyWidget/Classes/UIWidget/**/*.h",
+      "dependencies": {
+        "Kingfisher": [
+          "~> 5.7.0"
+        ]
+      }
+    },
+    {
+      "name": "Extension",
+      "source_files": [
+        "HzyWidget/Classes/base/**/*",
+        "HzyWidget/Classes/Extension/**/*"
+      ],
+      "public_header_files": "HzyWidget/Classes/Extension/**/*.h",
+      "dependencies": {
+        "SnapKit": [
+          "~> 5.0.0"
+        ]
+      }
+    },
+    {
+      "name": "NetWorkEngine",
+      "source_files": [
+        "HzyWidget/Classes/base/**/*",
+        "HzyWidget/Classes/extension/Foundation/String/StringExtension.swift",
+        "HzyWidget/Classes/NetworkEngine/**/*"
+      ],
+      "public_header_files": "HzyWidget/Classes/NetworkEngine/**/*.h",
+      "dependencies": {
+        "HandyJSON": [
+          "~> 5.0.0"
+        ],
+        "Alamofire": [
+          "~> 4.8.1"
+        ],
+        "Cache": [
+
+        ]
+      }
+    }
+  ]
+}
