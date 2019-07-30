@@ -9,3 +9,6 @@ PODS_TARGET_SRCROOT = ${PODS_ROOT}/Cache
 PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
 SKIP_INSTALL = YES
 SWIFT_VERSION = 4.2
+#include "/Users/hzf/Documents/hzy-private/XOS.lab/flutter_mudule/.ios/Flutter/Generated.xcconfig"
+#include "/Users/hzf/Documents/hzy-private/XOS.lab/flutter_mudule/.ios/Flutter/Generated.xcconfig"
+#include "/Users/hzf/Documents/hzy-private/XOS.lab/flutter_mudule/.ios/Flutter/Generated.xcconfig"

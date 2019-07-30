@@ -1,0 +1,77 @@
+{
+  "name": "ZymeWidget",
+  "version": "0.1.0",
+  "summary": "A short description of zymeWidget.",
+  "swift_version": "5.0",
+  "module_name": "Zyme",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1810022686@qq.com/ZymeWidget",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1810022686@qq.com": "1810022686@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/1810022686@qq.com/zymeWidget.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "subspecs": [
+    {
+      "name": "Base",
+      "source_files": "ZymeWidget/Classes/Base/**/*",
+      "public_header_files": "ZymeWidget/Classes/Base/**/*.h"
+    },
+    {
+      "name": "UIWidget",
+      "source_files": "ZymeWidget/Classes/UIWidget/**/*",
+      "public_header_files": "ZymeWidget/Classes/UIWidget/**/*.h",
+      "dependencies": {
+        "Kingfisher": [
+          "~> 5.7.0"
+        ]
+      }
+    },
+    {
+      "name": "Extension",
+      "source_files": [
+        "ZymeWidget/Classes/base/**/*",
+        "ZymeWidget/Classes/Extension/**/*"
+      ],
+      "public_header_files": "ZymeWidget/Classes/Extension/**/*.h",
+      "dependencies": {
+        "SnapKit": [
+          "~> 5.0.0"
+        ]
+      }
+    },
+    {
+      "name": "NetWorkEngine",
+      "source_files": [
+        "ZymeWidget/Classes/base/**/*",
+        "ZymeWidget/Classes/extension/Foundation/String/StringExtension.swift",
+        "ZymeWidget/Classes/NetworkEngine/**/*"
+      ],
+      "public_header_files": "ZymeWidget/Classes/NetworkEngine/**/*.h",
+      "dependencies": {
+        "HandyJSON": [
+          "~> 5.0.0"
+        ],
+        "Alamofire": [
+          "~> 4.8.2"
+        ],
+        "Cache": [
+
+        ]
+      }
+    }
+  ]
+}

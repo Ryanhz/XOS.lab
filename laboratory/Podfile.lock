@@ -1,32 +1,46 @@
 PODS:
   - Alamofire (4.8.2)
   - Cache (5.2.0)
+  - Flutter (1.0.0)
+  - flutter_boost (0.0.1):
+    - Flutter
+    - xservice_kit
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+    - flutter_boost
+    - xservice_kit
   - HandyJSON (5.0.0)
-  - HzyWidget (0.1.0):
-    - HzyWidget/Base (= 0.1.0)
-    - HzyWidget/Extension (= 0.1.0)
-    - HzyWidget/NetWorkEngine (= 0.1.0)
-    - HzyWidget/UIWidget (= 0.1.0)
-  - HzyWidget/Base (0.1.0)
-  - HzyWidget/Extension (0.1.0):
-    - SnapKit (~> 5.0.0)
-  - HzyWidget/NetWorkEngine (0.1.0):
-    - Alamofire (~> 4.8.2)
-    - Cache
-    - HandyJSON (~> 5.0.0)
-  - HzyWidget/UIWidget (0.1.0):
-    - Kingfisher (~> 5.7.0)
   - Kingfisher (5.7.0)
   - ReactiveObjC (3.1.1)
   - SnapKit (5.0.0)
   - SwiftDate (6.0.3)
   - SwiftyJSON (5.0.0)
+  - xservice_kit (0.0.1):
+    - Flutter
+  - ZymeWidget (0.1.0):
+    - ZymeWidget/Base (= 0.1.0)
+    - ZymeWidget/Extension (= 0.1.0)
+    - ZymeWidget/NetWorkEngine (= 0.1.0)
+    - ZymeWidget/UIWidget (= 0.1.0)
+  - ZymeWidget/Base (0.1.0)
+  - ZymeWidget/Extension (0.1.0):
+    - SnapKit (~> 5.0.0)
+  - ZymeWidget/NetWorkEngine (0.1.0):
+    - Alamofire (~> 4.8.2)
+    - Cache
+    - HandyJSON (~> 5.0.0)
+  - ZymeWidget/UIWidget (0.1.0):
+    - Kingfisher (~> 5.7.0)
 
 DEPENDENCIES:
-  - HzyWidget (from `../HzyWidget`)
+  - Flutter (from `../flutter_mudule/.ios/Flutter/engine`)
+  - flutter_boost (from `../flutter_mudule/.ios/Flutter/.symlinks/flutter_boost/ios`)
+  - FlutterPluginRegistrant (from `../flutter_mudule/.ios/Flutter/FlutterPluginRegistrant`)
   - ReactiveObjC
   - SwiftDate (~> 6.0.3)
   - SwiftyJSON (~> 5.0)
+  - xservice_kit (from `../flutter_mudule/.ios/Flutter/.symlinks/xservice_kit/ios`)
+  - ZymeWidget (from `../ZymeWidget`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -40,20 +54,32 @@ SPEC REPOS:
     - SwiftyJSON
 
 EXTERNAL SOURCES:
-  HzyWidget:
-    :path: "../HzyWidget"
+  Flutter:
+    :path: "../flutter_mudule/.ios/Flutter/engine"
+  flutter_boost:
+    :path: "../flutter_mudule/.ios/Flutter/.symlinks/flutter_boost/ios"
+  FlutterPluginRegistrant:
+    :path: "../flutter_mudule/.ios/Flutter/FlutterPluginRegistrant"
+  xservice_kit:
+    :path: "../flutter_mudule/.ios/Flutter/.symlinks/xservice_kit/ios"
+  ZymeWidget:
+    :path: "../ZymeWidget"
 
 SPEC CHECKSUMS:
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
   Cache: 807c5d86d01a177f06ede9865add3aea269bbfd4
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  flutter_boost: 0e85ea37c74ed39ee7b91a35612afa1605557484
+  FlutterPluginRegistrant: 09e35a5c8903bbd46dc4a41f36a0075b6d4714d1
   HandyJSON: 992f2d661716d6a91de82d0056927bc7813b5770
-  HzyWidget: 4e1e92c7a087c977de6227eab3e3b8ada8e3113b
   Kingfisher: c7d211b54f1f30d8060aadab177d52b4349c825b
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
   SnapKit: fd22d10eb9aff484d79a8724eab922c1ddf89bcf
   SwiftDate: 8d4f14bf1ef68e95094511504856547bf9e3e1a6
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  xservice_kit: a2f1b35addc126fce8687aeb183ab0c1ada5b7f3
+  ZymeWidget: 00261bab6bf854772edbea0f6262be9bf965d625
 
-PODFILE CHECKSUM: 985472bdc483b7d6a8799555dd8ad6ceeb43c840
+PODFILE CHECKSUM: c739a28f082f8a3a63fe1e8461e80fb8f829437e
 
 COCOAPODS: 1.6.1

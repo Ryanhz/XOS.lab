@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3050FDB922F04CC800D48339 /* ZGifLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3050FDB822F04CC800D48339 /* ZGifLoadingView.swift */; };
 		30527D7C22EADE0B00862632 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30527D7B22EADE0B00862632 /* AppDelegate.swift */; };
 		30527D7E22EADE0B00862632 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30527D7D22EADE0B00862632 /* ViewController.swift */; };
 		30527D8122EADE0B00862632 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30527D7F22EADE0B00862632 /* Main.storyboard */; };
@@ -14,6 +15,22 @@
 		30527D8622EADE0C00862632 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30527D8422EADE0C00862632 /* LaunchScreen.storyboard */; };
 		30527D9122EADE0C00862632 /* laboratoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30527D9022EADE0C00862632 /* laboratoryTests.swift */; };
 		30527D9C22EADE0C00862632 /* laboratoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30527D9B22EADE0C00862632 /* laboratoryUITests.swift */; };
+		30527DB222EEC29500862632 /* FlutterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30527DB122EEC29500862632 /* FlutterRouter.swift */; };
+		30527DB922EEDA5F00862632 /* ZymeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30527DB822EEDA5F00862632 /* ZymeApp.swift */; };
+		30C2C88622EEFB5900BA83E6 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 30C2C88222EEFB5900BA83E6 /* 4.png */; };
+		30C2C88722EEFB5900BA83E6 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 30C2C88322EEFB5900BA83E6 /* 2.png */; };
+		30C2C88822EEFB5900BA83E6 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 30C2C88422EEFB5900BA83E6 /* 3.png */; };
+		30C2C88922EEFB5900BA83E6 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 30C2C88522EEFB5900BA83E6 /* 1.png */; };
+		30C2C90722F01AD400BA83E6 /* 30txpEYc01.png in Resources */ = {isa = PBXBuildFile; fileRef = 30C2C90622F01AD400BA83E6 /* 30txpEYc01.png */; };
+		30C2C90A22F0216200BA83E6 /* orange@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30C2C90822F0216200BA83E6 /* orange@3x.png */; };
+		30C2C90B22F0216200BA83E6 /* orange@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30C2C90922F0216200BA83E6 /* orange@2x.png */; };
+		30C2C91022F023DF00BA83E6 /* ZLiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C90F22F023DF00BA83E6 /* ZLiveViewController.swift */; };
+		30C2C91222F023F000BA83E6 /* ZWorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C91122F023F000BA83E6 /* ZWorkViewController.swift */; };
+		30C2C91422F023FE00BA83E6 /* ZHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C91322F023FE00BA83E6 /* ZHomeViewController.swift */; };
+		30C2C91922F02BBF00BA83E6 /* ZRootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C91822F02BBF00BA83E6 /* ZRootTabBarController.swift */; };
+		30C2C91B22F02BDC00BA83E6 /* ZRootNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C91A22F02BDC00BA83E6 /* ZRootNavigationController.swift */; };
+		30C2C91D22F02BF200BA83E6 /* ZBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C91C22F02BF200BA83E6 /* ZBaseViewController.swift */; };
+		30C2C91F22F02E2B00BA83E6 /* ZBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C91E22F02E2B00BA83E6 /* ZBaseNavigationController.swift */; };
 		DC7526B9B3C50FB984F752AD /* Pods_laboratory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FD36E9F5B0E7C004AF4D48 /* Pods_laboratory.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +53,7 @@
 
 /* Begin PBXFileReference section */
 		1B0A92AF877CB89AAB4216AE /* Pods-laboratory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-laboratory.debug.xcconfig"; path = "Target Support Files/Pods-laboratory/Pods-laboratory.debug.xcconfig"; sourceTree = "<group>"; };
+		3050FDB822F04CC800D48339 /* ZGifLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZGifLoadingView.swift; sourceTree = "<group>"; };
 		30527D7822EADE0B00862632 /* laboratory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = laboratory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30527D7B22EADE0B00862632 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30527D7D22EADE0B00862632 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +67,22 @@
 		30527D9722EADE0C00862632 /* laboratoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = laboratoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30527D9B22EADE0C00862632 /* laboratoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = laboratoryUITests.swift; sourceTree = "<group>"; };
 		30527D9D22EADE0C00862632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30527DB122EEC29500862632 /* FlutterRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlutterRouter.swift; sourceTree = "<group>"; };
+		30527DB822EEDA5F00862632 /* ZymeApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZymeApp.swift; sourceTree = "<group>"; };
+		30C2C88222EEFB5900BA83E6 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		30C2C88322EEFB5900BA83E6 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		30C2C88422EEFB5900BA83E6 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		30C2C88522EEFB5900BA83E6 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		30C2C90622F01AD400BA83E6 /* 30txpEYc01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 30txpEYc01.png; sourceTree = "<group>"; };
+		30C2C90822F0216200BA83E6 /* orange@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orange@3x.png"; sourceTree = "<group>"; };
+		30C2C90922F0216200BA83E6 /* orange@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orange@2x.png"; sourceTree = "<group>"; };
+		30C2C90F22F023DF00BA83E6 /* ZLiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLiveViewController.swift; sourceTree = "<group>"; };
+		30C2C91122F023F000BA83E6 /* ZWorkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZWorkViewController.swift; sourceTree = "<group>"; };
+		30C2C91322F023FE00BA83E6 /* ZHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZHomeViewController.swift; sourceTree = "<group>"; };
+		30C2C91822F02BBF00BA83E6 /* ZRootTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZRootTabBarController.swift; sourceTree = "<group>"; };
+		30C2C91A22F02BDC00BA83E6 /* ZRootNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZRootNavigationController.swift; sourceTree = "<group>"; };
+		30C2C91C22F02BF200BA83E6 /* ZBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZBaseViewController.swift; sourceTree = "<group>"; };
+		30C2C91E22F02E2B00BA83E6 /* ZBaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZBaseNavigationController.swift; sourceTree = "<group>"; };
 		5AF58B38D12E9D0470CC81F4 /* Pods-laboratory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-laboratory.release.xcconfig"; path = "Target Support Files/Pods-laboratory/Pods-laboratory.release.xcconfig"; sourceTree = "<group>"; };
 		A4FD36E9F5B0E7C004AF4D48 /* Pods_laboratory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_laboratory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECBDFA3C4A6644EEC2141AB9 /* Pods-laboratory.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-laboratory.adhoc.xcconfig"; path = "Target Support Files/Pods-laboratory/Pods-laboratory.adhoc.xcconfig"; sourceTree = "<group>"; };
@@ -105,8 +139,15 @@
 		30527D7A22EADE0B00862632 /* laboratory */ = {
 			isa = PBXGroup;
 			children = (
+				30C2C91522F02B1800BA83E6 /* root */,
+				30C2C90E22F023BC00BA83E6 /* live */,
+				30C2C90D22F023B100BA83E6 /* work */,
+				30C2C90C22F023A800BA83E6 /* home */,
 				30527D7B22EADE0B00862632 /* AppDelegate.swift */,
 				30527D7D22EADE0B00862632 /* ViewController.swift */,
+				30527DB822EEDA5F00862632 /* ZymeApp.swift */,
+				30527DB022EEC25C00862632 /* flutter */,
+				30C2C88022EEFB3F00BA83E6 /* asset */,
 				30527D7F22EADE0B00862632 /* Main.storyboard */,
 				30527D8222EADE0C00862632 /* Assets.xcassets */,
 				30527D8422EADE0C00862632 /* LaunchScreen.storyboard */,
@@ -131,6 +172,73 @@
 				30527D9D22EADE0C00862632 /* Info.plist */,
 			);
 			path = laboratoryUITests;
+			sourceTree = "<group>";
+		};
+		30527DB022EEC25C00862632 /* flutter */ = {
+			isa = PBXGroup;
+			children = (
+				30527DB122EEC29500862632 /* FlutterRouter.swift */,
+			);
+			path = flutter;
+			sourceTree = "<group>";
+		};
+		30C2C88022EEFB3F00BA83E6 /* asset */ = {
+			isa = PBXGroup;
+			children = (
+				30C2C90922F0216200BA83E6 /* orange@2x.png */,
+				30C2C90822F0216200BA83E6 /* orange@3x.png */,
+				30C2C90622F01AD400BA83E6 /* 30txpEYc01.png */,
+				30C2C88122EEFB5900BA83E6 /* NewFeature */,
+			);
+			path = asset;
+			sourceTree = "<group>";
+		};
+		30C2C88122EEFB5900BA83E6 /* NewFeature */ = {
+			isa = PBXGroup;
+			children = (
+				30C2C88222EEFB5900BA83E6 /* 4.png */,
+				30C2C88322EEFB5900BA83E6 /* 2.png */,
+				30C2C88422EEFB5900BA83E6 /* 3.png */,
+				30C2C88522EEFB5900BA83E6 /* 1.png */,
+			);
+			name = NewFeature;
+			path = ../../../library/library/resource/images/NewFeature;
+			sourceTree = "<group>";
+		};
+		30C2C90C22F023A800BA83E6 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				30C2C91322F023FE00BA83E6 /* ZHomeViewController.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		30C2C90D22F023B100BA83E6 /* work */ = {
+			isa = PBXGroup;
+			children = (
+				30C2C91122F023F000BA83E6 /* ZWorkViewController.swift */,
+			);
+			path = work;
+			sourceTree = "<group>";
+		};
+		30C2C90E22F023BC00BA83E6 /* live */ = {
+			isa = PBXGroup;
+			children = (
+				30C2C90F22F023DF00BA83E6 /* ZLiveViewController.swift */,
+			);
+			path = live;
+			sourceTree = "<group>";
+		};
+		30C2C91522F02B1800BA83E6 /* root */ = {
+			isa = PBXGroup;
+			children = (
+				30C2C91822F02BBF00BA83E6 /* ZRootTabBarController.swift */,
+				30C2C91A22F02BDC00BA83E6 /* ZRootNavigationController.swift */,
+				30C2C91C22F02BF200BA83E6 /* ZBaseViewController.swift */,
+				30C2C91E22F02E2B00BA83E6 /* ZBaseNavigationController.swift */,
+				3050FDB822F04CC800D48339 /* ZGifLoadingView.swift */,
+			);
+			path = root;
 			sourceTree = "<group>";
 		};
 		665FCF04FC39E841FE950904 /* Pods */ = {
@@ -163,6 +271,7 @@
 				30527D7522EADE0B00862632 /* Frameworks */,
 				30527D7622EADE0B00862632 /* Resources */,
 				42CC295B6514198B44DFC2BC /* [CP] Embed Pods Frameworks */,
+				30527DAD22EE8CE400862632 /* flutter-script */,
 			);
 			buildRules = (
 			);
@@ -215,6 +324,7 @@
 		30527D7022EADE0B00862632 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = Z;
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = zyme;
@@ -257,9 +367,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30C2C88622EEFB5900BA83E6 /* 4.png in Resources */,
 				30527D8622EADE0C00862632 /* LaunchScreen.storyboard in Resources */,
+				30C2C90A22F0216200BA83E6 /* orange@3x.png in Resources */,
+				30C2C90722F01AD400BA83E6 /* 30txpEYc01.png in Resources */,
+				30C2C88722EEFB5900BA83E6 /* 2.png in Resources */,
+				30C2C88822EEFB5900BA83E6 /* 3.png in Resources */,
 				30527D8322EADE0C00862632 /* Assets.xcassets in Resources */,
 				30527D8122EADE0B00862632 /* Main.storyboard in Resources */,
+				30C2C90B22F0216200BA83E6 /* orange@2x.png in Resources */,
+				30C2C88922EEFB5900BA83E6 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +419,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		30527DAD22EE8CE400862632 /* flutter-script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "flutter-script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build\n\"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed\n\"./xcode_backend.sh\" thin\n";
+		};
 		42CC295B6514198B44DFC2BC /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -313,13 +448,17 @@
 				"${PODS_ROOT}/Target Support Files/Pods-laboratory/Pods-laboratory-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Cache/Cache.framework",
+				"${PODS_ROOT}/../../flutter_mudule/.ios/Flutter/engine/Flutter.framework",
+				"${BUILT_PRODUCTS_DIR}/FlutterPluginRegistrant/FlutterPluginRegistrant.framework",
 				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
-				"${BUILT_PRODUCTS_DIR}/HzyWidget/HzyWidget.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/ZymeWidget/Zyme.framework",
+				"${BUILT_PRODUCTS_DIR}/flutter_boost/flutter_boost.framework",
+				"${BUILT_PRODUCTS_DIR}/xservice_kit/xservice_kit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -327,13 +466,17 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FlutterPluginRegistrant.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HzyWidget.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Zyme.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/flutter_boost.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/xservice_kit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -347,8 +490,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30527DB222EEC29500862632 /* FlutterRouter.swift in Sources */,
+				30527DB922EEDA5F00862632 /* ZymeApp.swift in Sources */,
+				30C2C91022F023DF00BA83E6 /* ZLiveViewController.swift in Sources */,
 				30527D7E22EADE0B00862632 /* ViewController.swift in Sources */,
+				30C2C91922F02BBF00BA83E6 /* ZRootTabBarController.swift in Sources */,
+				3050FDB922F04CC800D48339 /* ZGifLoadingView.swift in Sources */,
 				30527D7C22EADE0B00862632 /* AppDelegate.swift in Sources */,
+				30C2C91D22F02BF200BA83E6 /* ZBaseViewController.swift in Sources */,
+				30C2C91B22F02BDC00BA83E6 /* ZRootNavigationController.swift in Sources */,
+				30C2C91F22F02E2B00BA83E6 /* ZBaseNavigationController.swift in Sources */,
+				30C2C91422F023FE00BA83E6 /* ZHomeViewController.swift in Sources */,
+				30C2C91222F023F000BA83E6 /* ZWorkViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,7 +678,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-debug";
 				CODE_SIGN_STYLE = Automatic;
-				CustomProductName = "zyme-debug";
+				CustomProductName = "zyme@d";
+				DEVELOPMENT_TEAM = GP468JB429;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = laboratory/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -546,6 +701,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				CustomProductName = zyme;
+				DEVELOPMENT_TEAM = GP468JB429;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = laboratory/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -697,7 +854,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-adhoc";
 				CODE_SIGN_STYLE = Automatic;
-				CustomProductName = "zyme-adhoc";
+				CustomProductName = "zyme@a";
+				DEVELOPMENT_TEAM = GP468JB429;
+				ENABLE_BITCODE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"ADHOC=1",

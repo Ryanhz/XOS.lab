@@ -12,6 +12,52 @@
 		30BC89D82146117500B1EA77 /* HzyCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BC89D72146117500B1EA77 /* HzyCarouselView.swift */; };
 		30BC89DA214644A400B1EA77 /* CarouselViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BC89D9214644A400B1EA77 /* CarouselViewController.swift */; };
 		30BC89E02147520B00B1EA77 /* HzyTextCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BC89DF2147520B00B1EA77 /* HzyTextCarouselView.swift */; };
+		30C2C8D622EFEEA000BA83E6 /* Image+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C89022EFEE9F00BA83E6 /* Image+Extension.swift */; };
+		30C2C8D722EFEEA000BA83E6 /* UIScreenExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C89222EFEE9F00BA83E6 /* UIScreenExtension.swift */; };
+		30C2C8D822EFEEA000BA83E6 /* Screen+Extend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C89322EFEE9F00BA83E6 /* Screen+Extend.swift */; };
+		30C2C8D922EFEEA000BA83E6 /* HzySwipeEndEditingable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C89522EFEE9F00BA83E6 /* HzySwipeEndEditingable.swift */; };
+		30C2C8DA22EFEEA000BA83E6 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C89722EFEE9F00BA83E6 /* UIButtonExtension.swift */; };
+		30C2C8DB22EFEEA000BA83E6 /* UIButtonCountDownable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C89822EFEE9F00BA83E6 /* UIButtonCountDownable.swift */; };
+		30C2C8DC22EFEEA000BA83E6 /* UIStoryboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C89A22EFEE9F00BA83E6 /* UIStoryboardExtension.swift */; };
+		30C2C8DD22EFEEA000BA83E6 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C89C22EFEE9F00BA83E6 /* UIColorExtension.swift */; };
+		30C2C8DE22EFEEA000BA83E6 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C89E22EFEE9F00BA83E6 /* Reusable.swift */; };
+		30C2C8DF22EFEEA000BA83E6 /* UITextView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C8A022EFEE9F00BA83E6 /* UITextView+Extension.swift */; };
+		30C2C8E022EFEEA000BA83E6 /* UIDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C8A222EFEE9F00BA83E6 /* UIDeviceExtension.swift */; };
+		30C2C8E122EFEEA000BA83E6 /* UIImageViewCornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C8A422EFEE9F00BA83E6 /* UIImageViewCornerRadius.swift */; };
+		30C2C8E222EFEEA000BA83E6 /* HzyPresentSimpleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C8A722EFEE9F00BA83E6 /* HzyPresentSimpleAnimation.swift */; };
+		30C2C8E322EFEEA000BA83E6 /* HzyPresentBackScaleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C8A822EFEE9F00BA83E6 /* HzyPresentBackScaleAnimation.swift */; };
+		30C2C8E422EFEEA000BA83E6 /* UIViewController+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C8A922EFEE9F00BA83E6 /* UIViewController+Init.swift */; };
+		30C2C8E522EFEEA000BA83E6 /* HzyPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C8AB22EFEE9F00BA83E6 /* HzyPresentationController.swift */; };
+		30C2C8E622EFEEA000BA83E6 /* HzyPopoverAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C8AC22EFEE9F00BA83E6 /* HzyPopoverAnimator.swift */; };
+		30C2C8E722EFEEA000BA83E6 /* HzyPushPopAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C8AD22EFEE9F00BA83E6 /* HzyPushPopAnimator.swift */; };
+		30C2C8E822EFEEA000BA83E6 /* HzyTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C8AE22EFEE9F00BA83E6 /* HzyTransitioningDelegate.swift */; };
+		30C2C8E922EFEEA000BA83E6 /* UIViewControllerPresentTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C8AF22EFEE9F00BA83E6 /* UIViewControllerPresentTransition.swift */; };
+		30C2C8EA22EFEEA000BA83E6 /* HzyPushPopScaleAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C8B222EFEE9F00BA83E6 /* HzyPushPopScaleAnimatedTransitioning.swift */; };
+		30C2C8EB22EFEEA000BA83E6 /* HzyPushPopBackAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C8B322EFEE9F00BA83E6 /* HzyPushPopBackAnimatedTransitioning.swift */; };
+		30C2C8EC22EFEEA000BA83E6 /* HzyInteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C8B522EFEE9F00BA83E6 /* HzyInteractiveTransition.swift */; };
+		30C2C8ED22EFEEA000BA83E6 /* UINavigationControllerPush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C8B622EFEE9F00BA83E6 /* UINavigationControllerPush.swift */; };
+		30C2C8EE22EFEEA000BA83E6 /* ULabel+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C8B722EFEE9F00BA83E6 /* ULabel+extension.swift */; };
+		30C2C8EF22EFEEA000BA83E6 /* UIViewConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C8B922EFEE9F00BA83E6 /* UIViewConstraint.swift */; };
+		30C2C8F022EFEEA000BA83E6 /* HzyDotable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C8BA22EFEE9F00BA83E6 /* HzyDotable.swift */; };
+		30C2C8F122EFEEA000BA83E6 /* HzyBadgeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C8BB22EFEE9F00BA83E6 /* HzyBadgeable.swift */; };
+		30C2C8F222EFEEA000BA83E6 /* UIView+Xib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C8BC22EFEE9F00BA83E6 /* UIView+Xib.swift */; };
+		30C2C8F322EFEEA000BA83E6 /* ReuseOnce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C8BD22EFEE9F00BA83E6 /* ReuseOnce.swift */; };
+		30C2C8F422EFEEA000BA83E6 /* HzyViewMaskable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C8BE22EFEE9F00BA83E6 /* HzyViewMaskable.swift */; };
+		30C2C8F522EFEEA000BA83E6 /* UIViewTouchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C8BF22EFEE9F00BA83E6 /* UIViewTouchable.swift */; };
+		30C2C8F622EFEEA000BA83E6 /* HzySuitSizeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C8C122EFEE9F00BA83E6 /* HzySuitSizeable.swift */; };
+		30C2C8F722EFEEA000BA83E6 /* URLComponentsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C8C222EFEE9F00BA83E6 /* URLComponentsExtension.swift */; };
+		30C2C8F822EFEEA000BA83E6 /* Date+Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C8C422EFEE9F00BA83E6 /* Date+Formatter.swift */; };
+		30C2C8F922EFEEA000BA83E6 /* DispatchQueueExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C8C522EFEE9F00BA83E6 /* DispatchQueueExtension.swift */; };
+		30C2C8FA22EFEEA000BA83E6 /* String+RegExp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C8C722EFEE9F00BA83E6 /* String+RegExp.swift */; };
+		30C2C8FB22EFEEA000BA83E6 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C8C822EFEE9F00BA83E6 /* StringExtension.swift */; };
+		30C2C8FC22EFEEA000BA83E6 /* String+FESize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C8C922EFEE9F00BA83E6 /* String+FESize.swift */; };
+		30C2C8FD22EFEEA000BA83E6 /* AssociatedExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C8CB22EFEE9F00BA83E6 /* AssociatedExtension.swift */; };
+		30C2C8FE22EFEEA000BA83E6 /* DataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C8CD22EFEE9F00BA83E6 /* DataExtension.swift */; };
+		30C2C8FF22EFEEA000BA83E6 /* NameOfClassable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C8CF22EFEE9F00BA83E6 /* NameOfClassable.swift */; };
+		30C2C90022EFEEA000BA83E6 /*  HzyNamespaceWrappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C8D122EFEE9F00BA83E6 /*  HzyNamespaceWrappable.swift */; };
+		30C2C90122EFEEA000BA83E6 /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C8D222EFEE9F00BA83E6 /* Then.swift */; };
+		30C2C90222EFEEA000BA83E6 /* HzyViewChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C8D322EFEE9F00BA83E6 /* HzyViewChain.swift */; };
+		30C2C90322EFEEA000BA83E6 /* DLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2C8D522EFEE9F00BA83E6 /* DLog.swift */; };
 		49049C9120A92247008A0B6F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 49049C9020A92247008A0B6F /* icon.png */; };
 		49049C9A20A92BCE008A0B6F /* HzyLauchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49049C9920A92BCE008A0B6F /* HzyLauchViewController.swift */; };
 		49049C9E20A92C95008A0B6F /* HzyLaunch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49049C9D20A92C95008A0B6F /* HzyLaunch.storyboard */; };
@@ -90,6 +136,52 @@
 		30BC89D72146117500B1EA77 /* HzyCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HzyCarouselView.swift; sourceTree = "<group>"; };
 		30BC89D9214644A400B1EA77 /* CarouselViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselViewController.swift; sourceTree = "<group>"; };
 		30BC89DF2147520B00B1EA77 /* HzyTextCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HzyTextCarouselView.swift; sourceTree = "<group>"; };
+		30C2C89022EFEE9F00BA83E6 /* Image+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+Extension.swift"; sourceTree = "<group>"; };
+		30C2C89222EFEE9F00BA83E6 /* UIScreenExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScreenExtension.swift; sourceTree = "<group>"; };
+		30C2C89322EFEE9F00BA83E6 /* Screen+Extend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Screen+Extend.swift"; sourceTree = "<group>"; };
+		30C2C89522EFEE9F00BA83E6 /* HzySwipeEndEditingable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HzySwipeEndEditingable.swift; sourceTree = "<group>"; };
+		30C2C89722EFEE9F00BA83E6 /* UIButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		30C2C89822EFEE9F00BA83E6 /* UIButtonCountDownable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonCountDownable.swift; sourceTree = "<group>"; };
+		30C2C89A22EFEE9F00BA83E6 /* UIStoryboardExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStoryboardExtension.swift; sourceTree = "<group>"; };
+		30C2C89C22EFEE9F00BA83E6 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		30C2C89E22EFEE9F00BA83E6 /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		30C2C8A022EFEE9F00BA83E6 /* UITextView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Extension.swift"; sourceTree = "<group>"; };
+		30C2C8A222EFEE9F00BA83E6 /* UIDeviceExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExtension.swift; sourceTree = "<group>"; };
+		30C2C8A422EFEE9F00BA83E6 /* UIImageViewCornerRadius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewCornerRadius.swift; sourceTree = "<group>"; };
+		30C2C8A722EFEE9F00BA83E6 /* HzyPresentSimpleAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HzyPresentSimpleAnimation.swift; sourceTree = "<group>"; };
+		30C2C8A822EFEE9F00BA83E6 /* HzyPresentBackScaleAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HzyPresentBackScaleAnimation.swift; sourceTree = "<group>"; };
+		30C2C8A922EFEE9F00BA83E6 /* UIViewController+Init.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Init.swift"; sourceTree = "<group>"; };
+		30C2C8AB22EFEE9F00BA83E6 /* HzyPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HzyPresentationController.swift; sourceTree = "<group>"; };
+		30C2C8AC22EFEE9F00BA83E6 /* HzyPopoverAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HzyPopoverAnimator.swift; sourceTree = "<group>"; };
+		30C2C8AD22EFEE9F00BA83E6 /* HzyPushPopAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HzyPushPopAnimator.swift; sourceTree = "<group>"; };
+		30C2C8AE22EFEE9F00BA83E6 /* HzyTransitioningDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HzyTransitioningDelegate.swift; sourceTree = "<group>"; };
+		30C2C8AF22EFEE9F00BA83E6 /* UIViewControllerPresentTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerPresentTransition.swift; sourceTree = "<group>"; };
+		30C2C8B222EFEE9F00BA83E6 /* HzyPushPopScaleAnimatedTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HzyPushPopScaleAnimatedTransitioning.swift; sourceTree = "<group>"; };
+		30C2C8B322EFEE9F00BA83E6 /* HzyPushPopBackAnimatedTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HzyPushPopBackAnimatedTransitioning.swift; sourceTree = "<group>"; };
+		30C2C8B522EFEE9F00BA83E6 /* HzyInteractiveTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HzyInteractiveTransition.swift; sourceTree = "<group>"; };
+		30C2C8B622EFEE9F00BA83E6 /* UINavigationControllerPush.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationControllerPush.swift; sourceTree = "<group>"; };
+		30C2C8B722EFEE9F00BA83E6 /* ULabel+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ULabel+extension.swift"; sourceTree = "<group>"; };
+		30C2C8B922EFEE9F00BA83E6 /* UIViewConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewConstraint.swift; sourceTree = "<group>"; };
+		30C2C8BA22EFEE9F00BA83E6 /* HzyDotable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HzyDotable.swift; sourceTree = "<group>"; };
+		30C2C8BB22EFEE9F00BA83E6 /* HzyBadgeable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HzyBadgeable.swift; sourceTree = "<group>"; };
+		30C2C8BC22EFEE9F00BA83E6 /* UIView+Xib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Xib.swift"; sourceTree = "<group>"; };
+		30C2C8BD22EFEE9F00BA83E6 /* ReuseOnce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReuseOnce.swift; sourceTree = "<group>"; };
+		30C2C8BE22EFEE9F00BA83E6 /* HzyViewMaskable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HzyViewMaskable.swift; sourceTree = "<group>"; };
+		30C2C8BF22EFEE9F00BA83E6 /* UIViewTouchable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewTouchable.swift; sourceTree = "<group>"; };
+		30C2C8C122EFEE9F00BA83E6 /* HzySuitSizeable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HzySuitSizeable.swift; sourceTree = "<group>"; };
+		30C2C8C222EFEE9F00BA83E6 /* URLComponentsExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLComponentsExtension.swift; sourceTree = "<group>"; };
+		30C2C8C422EFEE9F00BA83E6 /* Date+Formatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Formatter.swift"; sourceTree = "<group>"; };
+		30C2C8C522EFEE9F00BA83E6 /* DispatchQueueExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchQueueExtension.swift; sourceTree = "<group>"; };
+		30C2C8C722EFEE9F00BA83E6 /* String+RegExp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+RegExp.swift"; sourceTree = "<group>"; };
+		30C2C8C822EFEE9F00BA83E6 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		30C2C8C922EFEE9F00BA83E6 /* String+FESize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+FESize.swift"; sourceTree = "<group>"; };
+		30C2C8CB22EFEE9F00BA83E6 /* AssociatedExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssociatedExtension.swift; sourceTree = "<group>"; };
+		30C2C8CD22EFEE9F00BA83E6 /* DataExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataExtension.swift; sourceTree = "<group>"; };
+		30C2C8CF22EFEE9F00BA83E6 /* NameOfClassable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameOfClassable.swift; sourceTree = "<group>"; };
+		30C2C8D122EFEE9F00BA83E6 /*  HzyNamespaceWrappable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = " HzyNamespaceWrappable.swift"; sourceTree = "<group>"; };
+		30C2C8D222EFEE9F00BA83E6 /* Then.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Then.swift; sourceTree = "<group>"; };
+		30C2C8D322EFEE9F00BA83E6 /* HzyViewChain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HzyViewChain.swift; sourceTree = "<group>"; };
+		30C2C8D522EFEE9F00BA83E6 /* DLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLog.swift; sourceTree = "<group>"; };
 		49049C9020A92247008A0B6F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		49049C9920A92BCE008A0B6F /* HzyLauchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HzyLauchViewController.swift; sourceTree = "<group>"; };
 		49049C9D20A92C95008A0B6F /* HzyLaunch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HzyLaunch.storyboard; sourceTree = "<group>"; };
@@ -202,6 +294,275 @@
 			path = carousel;
 			sourceTree = "<group>";
 		};
+		30C2C88C22EFEE9F00BA83E6 /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				30C2C88D22EFEE9F00BA83E6 /* Extension */,
+				30C2C8D422EFEE9F00BA83E6 /* Static */,
+			);
+			path = Expand;
+			sourceTree = "<group>";
+		};
+		30C2C88D22EFEE9F00BA83E6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				30C2C88E22EFEE9F00BA83E6 /* UIKit */,
+				30C2C8C022EFEE9F00BA83E6 /* Foundation */,
+				30C2C8D022EFEE9F00BA83E6 /* Chain */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		30C2C88E22EFEE9F00BA83E6 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				30C2C88F22EFEE9F00BA83E6 /* UIImage */,
+				30C2C89122EFEE9F00BA83E6 /* UIScreen */,
+				30C2C89422EFEE9F00BA83E6 /* UIResponder */,
+				30C2C89622EFEE9F00BA83E6 /* UIButton */,
+				30C2C89922EFEE9F00BA83E6 /* UIStoryboard */,
+				30C2C89B22EFEE9F00BA83E6 /* Color */,
+				30C2C89D22EFEE9F00BA83E6 /* UIReuseable */,
+				30C2C89F22EFEE9F00BA83E6 /* UITextView */,
+				30C2C8A122EFEE9F00BA83E6 /* UIDevice */,
+				30C2C8A322EFEE9F00BA83E6 /* UIImageView */,
+				30C2C8A522EFEE9F00BA83E6 /* UIViewController */,
+				30C2C8B022EFEE9F00BA83E6 /* UINavigationController */,
+				30C2C8B722EFEE9F00BA83E6 /* ULabel+extension.swift */,
+				30C2C8B822EFEE9F00BA83E6 /* View */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		30C2C88F22EFEE9F00BA83E6 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				30C2C89022EFEE9F00BA83E6 /* Image+Extension.swift */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		30C2C89122EFEE9F00BA83E6 /* UIScreen */ = {
+			isa = PBXGroup;
+			children = (
+				30C2C89222EFEE9F00BA83E6 /* UIScreenExtension.swift */,
+				30C2C89322EFEE9F00BA83E6 /* Screen+Extend.swift */,
+			);
+			path = UIScreen;
+			sourceTree = "<group>";
+		};
+		30C2C89422EFEE9F00BA83E6 /* UIResponder */ = {
+			isa = PBXGroup;
+			children = (
+				30C2C89522EFEE9F00BA83E6 /* HzySwipeEndEditingable.swift */,
+			);
+			path = UIResponder;
+			sourceTree = "<group>";
+		};
+		30C2C89622EFEE9F00BA83E6 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				30C2C89722EFEE9F00BA83E6 /* UIButtonExtension.swift */,
+				30C2C89822EFEE9F00BA83E6 /* UIButtonCountDownable.swift */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		30C2C89922EFEE9F00BA83E6 /* UIStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				30C2C89A22EFEE9F00BA83E6 /* UIStoryboardExtension.swift */,
+			);
+			path = UIStoryboard;
+			sourceTree = "<group>";
+		};
+		30C2C89B22EFEE9F00BA83E6 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				30C2C89C22EFEE9F00BA83E6 /* UIColorExtension.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		30C2C89D22EFEE9F00BA83E6 /* UIReuseable */ = {
+			isa = PBXGroup;
+			children = (
+				30C2C89E22EFEE9F00BA83E6 /* Reusable.swift */,
+			);
+			path = UIReuseable;
+			sourceTree = "<group>";
+		};
+		30C2C89F22EFEE9F00BA83E6 /* UITextView */ = {
+			isa = PBXGroup;
+			children = (
+				30C2C8A022EFEE9F00BA83E6 /* UITextView+Extension.swift */,
+			);
+			path = UITextView;
+			sourceTree = "<group>";
+		};
+		30C2C8A122EFEE9F00BA83E6 /* UIDevice */ = {
+			isa = PBXGroup;
+			children = (
+				30C2C8A222EFEE9F00BA83E6 /* UIDeviceExtension.swift */,
+			);
+			path = UIDevice;
+			sourceTree = "<group>";
+		};
+		30C2C8A322EFEE9F00BA83E6 /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				30C2C8A422EFEE9F00BA83E6 /* UIImageViewCornerRadius.swift */,
+			);
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		30C2C8A522EFEE9F00BA83E6 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				30C2C8A622EFEE9F00BA83E6 /* AnimatedTransitioning */,
+				30C2C8A922EFEE9F00BA83E6 /* UIViewController+Init.swift */,
+				30C2C8AA22EFEE9F00BA83E6 /* TransitionDelegate */,
+				30C2C8AF22EFEE9F00BA83E6 /* UIViewControllerPresentTransition.swift */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		30C2C8A622EFEE9F00BA83E6 /* AnimatedTransitioning */ = {
+			isa = PBXGroup;
+			children = (
+				30C2C8A722EFEE9F00BA83E6 /* HzyPresentSimpleAnimation.swift */,
+				30C2C8A822EFEE9F00BA83E6 /* HzyPresentBackScaleAnimation.swift */,
+			);
+			path = AnimatedTransitioning;
+			sourceTree = "<group>";
+		};
+		30C2C8AA22EFEE9F00BA83E6 /* TransitionDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				30C2C8AB22EFEE9F00BA83E6 /* HzyPresentationController.swift */,
+				30C2C8AC22EFEE9F00BA83E6 /* HzyPopoverAnimator.swift */,
+				30C2C8AD22EFEE9F00BA83E6 /* HzyPushPopAnimator.swift */,
+				30C2C8AE22EFEE9F00BA83E6 /* HzyTransitioningDelegate.swift */,
+			);
+			path = TransitionDelegate;
+			sourceTree = "<group>";
+		};
+		30C2C8B022EFEE9F00BA83E6 /* UINavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				30C2C8B122EFEE9F00BA83E6 /* AnimatedTransitioning */,
+				30C2C8B422EFEE9F00BA83E6 /* Delegate */,
+				30C2C8B622EFEE9F00BA83E6 /* UINavigationControllerPush.swift */,
+			);
+			path = UINavigationController;
+			sourceTree = "<group>";
+		};
+		30C2C8B122EFEE9F00BA83E6 /* AnimatedTransitioning */ = {
+			isa = PBXGroup;
+			children = (
+				30C2C8B222EFEE9F00BA83E6 /* HzyPushPopScaleAnimatedTransitioning.swift */,
+				30C2C8B322EFEE9F00BA83E6 /* HzyPushPopBackAnimatedTransitioning.swift */,
+			);
+			path = AnimatedTransitioning;
+			sourceTree = "<group>";
+		};
+		30C2C8B422EFEE9F00BA83E6 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				30C2C8B522EFEE9F00BA83E6 /* HzyInteractiveTransition.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		30C2C8B822EFEE9F00BA83E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				30C2C8B922EFEE9F00BA83E6 /* UIViewConstraint.swift */,
+				30C2C8BA22EFEE9F00BA83E6 /* HzyDotable.swift */,
+				30C2C8BB22EFEE9F00BA83E6 /* HzyBadgeable.swift */,
+				30C2C8BC22EFEE9F00BA83E6 /* UIView+Xib.swift */,
+				30C2C8BD22EFEE9F00BA83E6 /* ReuseOnce.swift */,
+				30C2C8BE22EFEE9F00BA83E6 /* HzyViewMaskable.swift */,
+				30C2C8BF22EFEE9F00BA83E6 /* UIViewTouchable.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		30C2C8C022EFEE9F00BA83E6 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				30C2C8C122EFEE9F00BA83E6 /* HzySuitSizeable.swift */,
+				30C2C8C222EFEE9F00BA83E6 /* URLComponentsExtension.swift */,
+				30C2C8C322EFEE9F00BA83E6 /* Date */,
+				30C2C8C522EFEE9F00BA83E6 /* DispatchQueueExtension.swift */,
+				30C2C8C622EFEE9F00BA83E6 /* String */,
+				30C2C8CA22EFEE9F00BA83E6 /* NSObject */,
+				30C2C8CC22EFEE9F00BA83E6 /* Data */,
+				30C2C8CE22EFEE9F00BA83E6 /* Base */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		30C2C8C322EFEE9F00BA83E6 /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				30C2C8C422EFEE9F00BA83E6 /* Date+Formatter.swift */,
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
+		30C2C8C622EFEE9F00BA83E6 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				30C2C8C722EFEE9F00BA83E6 /* String+RegExp.swift */,
+				30C2C8C822EFEE9F00BA83E6 /* StringExtension.swift */,
+				30C2C8C922EFEE9F00BA83E6 /* String+FESize.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		30C2C8CA22EFEE9F00BA83E6 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				30C2C8CB22EFEE9F00BA83E6 /* AssociatedExtension.swift */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		30C2C8CC22EFEE9F00BA83E6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				30C2C8CD22EFEE9F00BA83E6 /* DataExtension.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		30C2C8CE22EFEE9F00BA83E6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				30C2C8CF22EFEE9F00BA83E6 /* NameOfClassable.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		30C2C8D022EFEE9F00BA83E6 /* Chain */ = {
+			isa = PBXGroup;
+			children = (
+				30C2C8D122EFEE9F00BA83E6 /*  HzyNamespaceWrappable.swift */,
+				30C2C8D222EFEE9F00BA83E6 /* Then.swift */,
+				30C2C8D322EFEE9F00BA83E6 /* HzyViewChain.swift */,
+			);
+			path = Chain;
+			sourceTree = "<group>";
+		};
+		30C2C8D422EFEE9F00BA83E6 /* Static */ = {
+			isa = PBXGroup;
+			children = (
+				30C2C8D522EFEE9F00BA83E6 /* DLog.swift */,
+			);
+			path = Static;
+			sourceTree = "<group>";
+		};
 		49049C9820A92B47008A0B6F /* Launch */ = {
 			isa = PBXGroup;
 			children = (
@@ -262,6 +623,7 @@
 		492621792099BF53006A6082 /* library */ = {
 			isa = PBXGroup;
 			children = (
+				30C2C88C22EFEE9F00BA83E6 /* Expand */,
 				494A12CF20BFC0A900C4A6BC /* AppDelegate */,
 				49E2DA5A20AABCE700788BBA /* hzyConfig */,
 				49262297209AFB44006A6082 /* main */,
@@ -804,13 +1166,24 @@
 			files = (
 				4926226B2099C48F006A6082 /* HzyCustomMaskView.swift in Sources */,
 				492622582099C48F006A6082 /* HzyPickController.swift in Sources */,
+				30C2C8E922EFEEA000BA83E6 /* UIViewControllerPresentTransition.swift in Sources */,
 				492622552099C48F006A6082 /* ZCyclePageControl.swift in Sources */,
+				30C2C8F122EFEEA000BA83E6 /* HzyBadgeable.swift in Sources */,
 				492622632099C48F006A6082 /* TF_BorderButton.swift in Sources */,
+				30C2C8F722EFEEA000BA83E6 /* URLComponentsExtension.swift in Sources */,
+				30C2C8E222EFEEA000BA83E6 /* HzyPresentSimpleAnimation.swift in Sources */,
+				30C2C8F622EFEEA000BA83E6 /* HzySuitSizeable.swift in Sources */,
 				492622562099C48F006A6082 /* ZCycleView.swift in Sources */,
+				30C2C90122EFEEA000BA83E6 /* Then.swift in Sources */,
+				30C2C8E522EFEEA000BA83E6 /* HzyPresentationController.swift in Sources */,
 				49262296209AFB3B006A6082 /* CornerRadiusTableViewController.swift in Sources */,
 				49262291209AF755006A6082 /* HzyCornerRadiusImageView.swift in Sources */,
 				495A25B920D259CB00E8DA9E /* ReactViewController.swift in Sources */,
+				30C2C8EC22EFEEA000BA83E6 /* HzyInteractiveTransition.swift in Sources */,
 				4926226E2099C48F006A6082 /* HzyMaskView.swift in Sources */,
+				30C2C8D822EFEEA000BA83E6 /* Screen+Extend.swift in Sources */,
+				30C2C8E722EFEEA000BA83E6 /* HzyPushPopAnimator.swift in Sources */,
+				30C2C8E122EFEEA000BA83E6 /* UIImageViewCornerRadius.swift in Sources */,
 				492622622099C48F006A6082 /* TF_SearchTextField.swift in Sources */,
 				492622642099C48F006A6082 /* TF_GradientButton.swift in Sources */,
 				4926226F2099C48F006A6082 /* HzyWaveProgressView.swift in Sources */,
@@ -820,13 +1193,23 @@
 				4926229A209BF6E3006A6082 /* HzyApp.swift in Sources */,
 				492622572099C48F006A6082 /* ZCycleViewCell.swift in Sources */,
 				4926225A2099C48F006A6082 /* TF_DatePickView.swift in Sources */,
+				30C2C8F222EFEEA000BA83E6 /* UIView+Xib.swift in Sources */,
+				30C2C8FD22EFEEA000BA83E6 /* AssociatedExtension.swift in Sources */,
 				4926225B2099C48F006A6082 /* TF_PickViewController.swift in Sources */,
 				4926225D2099C48F006A6082 /* HzyPlaceholderTextView.swift in Sources */,
 				4926217D2099BF53006A6082 /* ViewController.swift in Sources */,
+				30C2C8FB22EFEEA000BA83E6 /* StringExtension.swift in Sources */,
 				492622652099C48F006A6082 /* TF_leftImageBtn.swift in Sources */,
+				30C2C8D922EFEEA000BA83E6 /* HzySwipeEndEditingable.swift in Sources */,
 				4935D23620B54C5A007B6DD8 /* ScaleViewController.swift in Sources */,
+				30C2C8FE22EFEEA000BA83E6 /* DataExtension.swift in Sources */,
+				30C2C8E622EFEEA000BA83E6 /* HzyPopoverAnimator.swift in Sources */,
 				49A22A4420F34B0F0097EE00 /* RACViewController.m in Sources */,
+				30C2C8F322EFEEA000BA83E6 /* ReuseOnce.swift in Sources */,
+				30C2C8DC22EFEEA000BA83E6 /* UIStoryboardExtension.swift in Sources */,
 				492622662099C48F006A6082 /* TF_RightImageBtn.swift in Sources */,
+				30C2C8F922EFEEA000BA83E6 /* DispatchQueueExtension.swift in Sources */,
+				30C2C8DE22EFEEA000BA83E6 /* Reusable.swift in Sources */,
 				4926226A2099C48F006A6082 /* TF_GeneralTableViewHeaderFooterView.swift in Sources */,
 				49049C9A20A92BCE008A0B6F /* HzyLauchViewController.swift in Sources */,
 				49D8627120AE9D440014BBE9 /* PresentTableViewController.swift in Sources */,
@@ -835,27 +1218,52 @@
 				49D8627520AEADC80014BBE9 /* CustomPresentTableViewController.swift in Sources */,
 				303D465B21251C4E00C18800 /* Text2AudioTools.m in Sources */,
 				492622672099C48F006A6082 /* TF_RightRedBtn.swift in Sources */,
+				30C2C8EA22EFEEA000BA83E6 /* HzyPushPopScaleAnimatedTransitioning.swift in Sources */,
+				30C2C8F422EFEEA000BA83E6 /* HzyViewMaskable.swift in Sources */,
 				4926227A2099C4D9006A6082 /* HzyFrameDefines.swift in Sources */,
 				492622542099C48F006A6082 /* ZCycleLayout.swift in Sources */,
+				30C2C90022EFEEA000BA83E6 /*  HzyNamespaceWrappable.swift in Sources */,
+				30C2C8E022EFEEA000BA83E6 /* UIDeviceExtension.swift in Sources */,
+				30C2C8D622EFEEA000BA83E6 /* Image+Extension.swift in Sources */,
 				492622802099C4F9006A6082 /* HzyKey.swift in Sources */,
+				30C2C8FC22EFEEA000BA83E6 /* String+FESize.swift in Sources */,
+				30C2C8EF22EFEEA000BA83E6 /* UIViewConstraint.swift in Sources */,
+				30C2C8E422EFEEA000BA83E6 /* UIViewController+Init.swift in Sources */,
+				30C2C8D722EFEEA000BA83E6 /* UIScreenExtension.swift in Sources */,
 				4926225F2099C48F006A6082 /* TF_ImageBlurEffectView.swift in Sources */,
+				30C2C8DA22EFEEA000BA83E6 /* UIButtonExtension.swift in Sources */,
+				30C2C90322EFEEA000BA83E6 /* DLog.swift in Sources */,
 				4926217B2099BF53006A6082 /* AppDelegate.swift in Sources */,
+				30C2C8FA22EFEEA000BA83E6 /* String+RegExp.swift in Sources */,
 				494A131E20C1494E00C4A6BC /* CircularCollectionViewLayout.swift in Sources */,
 				4926227E2099C4F1006A6082 /* HzyEnum.swift in Sources */,
+				30C2C8E322EFEEA000BA83E6 /* HzyPresentBackScaleAnimation.swift in Sources */,
 				49049CA120A93002008A0B6F /* HzyNewFeatureViewController.swift in Sources */,
+				30C2C8FF22EFEEA000BA83E6 /* NameOfClassable.swift in Sources */,
+				30C2C8DF22EFEEA000BA83E6 /* UITextView+Extension.swift in Sources */,
 				49E2DA6420AAD1E300788BBA /* MapLocationViewController.swift in Sources */,
+				30C2C8ED22EFEEA000BA83E6 /* UINavigationControllerPush.swift in Sources */,
+				30C2C8EE22EFEEA000BA83E6 /* ULabel+extension.swift in Sources */,
+				30C2C8F822EFEEA000BA83E6 /* Date+Formatter.swift in Sources */,
+				30C2C8DB22EFEEA000BA83E6 /* UIButtonCountDownable.swift in Sources */,
 				30BC89E02147520B00B1EA77 /* HzyTextCarouselView.swift in Sources */,
+				30C2C90222EFEEA000BA83E6 /* HzyViewChain.swift in Sources */,
+				30C2C8DD22EFEEA000BA83E6 /* UIColorExtension.swift in Sources */,
+				30C2C8F022EFEEA000BA83E6 /* HzyDotable.swift in Sources */,
 				4926225C2099C48F006A6082 /* TF_SimplePick.swift in Sources */,
 				4926226C2099C48F006A6082 /* HzyDashLineView.swift in Sources */,
 				49E2DA6620AAE01E00788BBA /* MapViewViewController.swift in Sources */,
 				492622592099C48F006A6082 /* TF_AvatarPick.swift in Sources */,
 				49E2DA6020AAC5AD00788BBA /* HzyMapTableViewController.swift in Sources */,
+				30C2C8E822EFEEA000BA83E6 /* HzyTransitioningDelegate.swift in Sources */,
 				3085365D21254B09000AFB30 /* Text2AudioViewController.swift in Sources */,
 				4926226D2099C48F006A6082 /* HzyGradientView.swift in Sources */,
 				49049CAC20A95881008A0B6F /* HzyNewFeatureItemViewController.swift in Sources */,
+				30C2C8EB22EFEEA000BA83E6 /* HzyPushPopBackAnimatedTransitioning.swift in Sources */,
 				492622612099C48F006A6082 /* TF_CornersTextField.swift in Sources */,
 				30BC89DA214644A400B1EA77 /* CarouselViewController.swift in Sources */,
 				494A132020C14DE700C4A6BC /* CircularCollectionViewController.swift in Sources */,
+				30C2C8F522EFEEA000BA83E6 /* UIViewTouchable.swift in Sources */,
 				4926227C2099C4EA006A6082 /* HzybaseDefines.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
