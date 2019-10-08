@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3050FDB922F04CC800D48339 /* ZGifLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3050FDB822F04CC800D48339 /* ZGifLoadingView.swift */; };
+		3050FDB922F04CC800D48339 /* UIImageViewFrameAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3050FDB822F04CC800D48339 /* UIImageViewFrameAnimator.swift */; };
 		30527D7C22EADE0B00862632 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30527D7B22EADE0B00862632 /* AppDelegate.swift */; };
 		30527D7E22EADE0B00862632 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30527D7D22EADE0B00862632 /* ViewController.swift */; };
 		30527D8122EADE0B00862632 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30527D7F22EADE0B00862632 /* Main.storyboard */; };
@@ -53,7 +53,7 @@
 
 /* Begin PBXFileReference section */
 		1B0A92AF877CB89AAB4216AE /* Pods-laboratory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-laboratory.debug.xcconfig"; path = "Target Support Files/Pods-laboratory/Pods-laboratory.debug.xcconfig"; sourceTree = "<group>"; };
-		3050FDB822F04CC800D48339 /* ZGifLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZGifLoadingView.swift; sourceTree = "<group>"; };
+		3050FDB822F04CC800D48339 /* UIImageViewFrameAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewFrameAnimator.swift; sourceTree = "<group>"; };
 		30527D7822EADE0B00862632 /* laboratory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = laboratory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30527D7B22EADE0B00862632 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30527D7D22EADE0B00862632 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -236,7 +236,7 @@
 				30C2C91A22F02BDC00BA83E6 /* ZRootNavigationController.swift */,
 				30C2C91C22F02BF200BA83E6 /* ZBaseViewController.swift */,
 				30C2C91E22F02E2B00BA83E6 /* ZBaseNavigationController.swift */,
-				3050FDB822F04CC800D48339 /* ZGifLoadingView.swift */,
+				3050FDB822F04CC800D48339 /* UIImageViewFrameAnimator.swift */,
 			);
 			path = root;
 			sourceTree = "<group>";
@@ -495,7 +495,7 @@
 				30C2C91022F023DF00BA83E6 /* ZLiveViewController.swift in Sources */,
 				30527D7E22EADE0B00862632 /* ViewController.swift in Sources */,
 				30C2C91922F02BBF00BA83E6 /* ZRootTabBarController.swift in Sources */,
-				3050FDB922F04CC800D48339 /* ZGifLoadingView.swift in Sources */,
+				3050FDB922F04CC800D48339 /* UIImageViewFrameAnimator.swift in Sources */,
 				30527D7C22EADE0B00862632 /* AppDelegate.swift in Sources */,
 				30C2C91D22F02BF200BA83E6 /* ZBaseViewController.swift in Sources */,
 				30C2C91B22F02BDC00BA83E6 /* ZRootNavigationController.swift in Sources */,

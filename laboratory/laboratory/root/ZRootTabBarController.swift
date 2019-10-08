@@ -35,14 +35,32 @@ class ZRootTabBarController: UITabBarController {
         self.addChild(work)
     }
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    override func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {
+        
+        guard  let index = tabBar.items?.firstIndex(of: item) else {
+            return;
+        }
+        
+        
+        
     }
-    */
-
+//    
+//    func tabBarButtons() -> [UITabBarButton] {
+//        
+//        self.tabBar.subviews.flatMap { (subView) -> Sequence in
+//            
+//        }
+//        
+//    }
+//    
+    
+    
+    
+    
+    func createPath(name: String) -> [String]{
+        return  (0...36).map { (index) -> String in
+            return "\(name)\(index)_33x33_"
+        }
+    }
 }
