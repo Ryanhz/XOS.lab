@@ -1,0 +1,31 @@
+PODS:
+  - Alamofire (4.8.2)
+  - Cache (5.2.0)
+  - HandyJSON (5.0.0)
+  - HzyWidget/NetWorkEngine (0.1.0):
+    - Alamofire (~> 4.8.1)
+    - Cache
+    - HandyJSON (~> 5.0.0)
+
+DEPENDENCIES:
+  - HzyWidget/NetWorkEngine (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Cache
+    - HandyJSON
+
+EXTERNAL SOURCES:
+  HzyWidget:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Cache: 807c5d86d01a177f06ede9865add3aea269bbfd4
+  HandyJSON: 992f2d661716d6a91de82d0056927bc7813b5770
+  HzyWidget: 081ac2e5f5a8246e3eb34bf8c8f4baab51a62a6b
+
+PODFILE CHECKSUM: 45fed036706a7e5696c67d3038b784c3160e90ed
+
+COCOAPODS: 1.6.1

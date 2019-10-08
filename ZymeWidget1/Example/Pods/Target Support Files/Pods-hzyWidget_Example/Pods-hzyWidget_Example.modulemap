@@ -1,0 +1,6 @@
+framework module Pods_hzyWidget_Example {
+  umbrella header "Pods-hzyWidget_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

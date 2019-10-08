@@ -1,0 +1,6 @@
+framework module HzyWidget {
+  umbrella header "HzyWidget-umbrella.h"
+
+  export *
+  module * { export * }
+}

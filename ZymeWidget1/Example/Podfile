@@ -1,0 +1,13 @@
+platform :ios, '10.0'
+
+use_frameworks!
+
+target 'hzyWidget_Example' do
+  pod 'HzyWidget', :path => '../', :subspecs => ['NetWorkEngine']
+
+  target 'hzyWidget_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
